@@ -1,12 +1,35 @@
-# React + Vite
+Frontend-Design with a 3D Model
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a modern, single-page website for a creative digital studio, built with React and Vite. It features a dynamic hero section with an interactive 3D model, advanced scroll-based animations, and a responsive layout.
 
-Currently, two official plugins are available:
+Features
+Interactive 3D Hero: A captivating hero section featuring a 3D model rendered with @react-three/fiber and @react-three/drei.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Advanced Animations: Smooth, performant animations throughout the site, powered by framer-motion.
 
-## Expanding the ESLint configuration
+Scroll-Linked Effects:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+A persistent dot navigation that tracks the active section.
+
+A dynamic timeline in the "Services" section that animates as the user scrolls.
+
+Cards and other elements animate into view when they enter the viewport.
+
+Smooth Scrolling: Implements CSS scroll-snapping for a seamless, full-page scrolling experience.
+
+Responsive Design: A mobile-first design that ensures a great experience on all devices, including a collapsible navigation menu.
+
+Component-Based Architecture: Built with reusable React components for maintainability and scalability.
+
+Tech Stack
+Framework: React 19
+
+Build Tool: Vite
+
+3D Rendering: React Three Fiber & Drei
+
+Animation: Framer Motion
+
+Styling: CSS Modules
+
+Linting: ESLint
