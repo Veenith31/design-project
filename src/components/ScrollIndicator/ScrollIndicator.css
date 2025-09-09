@@ -1,0 +1,36 @@
+.scroll-indicator-nav {
+  position: fixed;
+  top: 50%;
+  right: 2rem;
+  transform: translateY(-50%);
+  z-index: 1000;
+}
+
+.scroll-indicator-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.scroll-indicator-nav .dot {
+  width: 12px;
+  height: 12px;
+  background-color: #4a5568; 
+  border-radius: 50%;
+  display: block;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.scroll-indicator-nav .dot.active {
+  background-color: #6366f1; /* Active color */
+  transform: scale(1.5);
+}
+
+@media (max-width: 968px) {
+  .scroll-indicator-nav {
+    display: none;
+  }
+}
